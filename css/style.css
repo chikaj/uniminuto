@@ -1,13 +1,25 @@
 h2.ilbal-title {
-	color: rgba(159, 214, 194, 1);
-	font-style: italic;
+    color: rgba(159, 214, 194, 1);
+    font-style: italic;
 }
 
 p.ilbal-left {
-	text-align: left;
+    text-align: left;
 }
 
 li.ilbal-black {
-	color: rgba(0, 0, 0, 1);
-	background-color: rgba(255, 255, 255, 0.5)
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.reveal section *.ilbal-ontop {
+    position: fixed;
+    top: 0%;
+    left: 15%;
+}
+
+.reveal section *.ilbal-clear{
+    background: none;
+    border: none;
+    box-shadow: none;
 }
